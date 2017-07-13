@@ -1,0 +1,2 @@
+class StudentTotal < ApplicationRecord
+end

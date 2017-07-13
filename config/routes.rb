@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'person#show'
-  resources :persons
+  root 'student_total#show'
+  resources :student_total
 
 end
