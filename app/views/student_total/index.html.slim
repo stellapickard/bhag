@@ -6,6 +6,10 @@ p
   =link_to 'BambooHR', 'https://getsmarter.bamboohr.co.uk/home/'
   | )
 
-form
-  p Enter your start date:
-  input type="date" name="start_date" min="2008-01-01"
+
+form action="/student_total" method="post"
+  label for="date" Enter your start date:
+  br
+  input type="date" name="date" min="2008-01-01"
+  br
+  input name="commit" type="submit" value="Submit"
